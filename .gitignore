@@ -22,7 +22,8 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-cache
+docs/.vitepress/cache/
+docs/.vitepress/dist/
 package-lock.json
 yarn.lock
 
