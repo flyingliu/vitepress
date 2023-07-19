@@ -29,4 +29,4 @@ jobs:
         with:
           branch: gh-pages
           folder: docs/.vitepress/dist
-          cname: v.bairilianzi.com
+          # cname: v.bairilianzi.com
