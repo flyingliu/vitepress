@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Hello VitePress3333',
   description: 'Just playing around.',
+  base: '/vitepress/',
   markdown: {
     lineNumbers: true,
     toc: { includeLevel: [1, 2] },
