@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快来快来
-      link: /articles/组件库环境搭建
+      link: /articles/圣教序释文
     - theme: alt
       text: View on Gitee
       link: https://gitee.com/flyingliu
