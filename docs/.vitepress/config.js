@@ -1,43 +1,55 @@
+// const components = import.meta.glob('@/views/components/dynamicDetails/**/*.vue', { eager: true })
+// Object.entries(components).forEach(([path, definition]) => {
+//   const componentName = $.util.toLine(path.split('/').at(-2))
+//   app.component(componentName, definition.default)
+// })
+
+
+const path = require('path')
+const articlesPath = path.resolve(__dirname,'../articles')
+const dirTree = require("directory-tree")
+const tree = dirTree(articlesPath)
+
+const sidebarItems = tree.children.map(v=>{
+  return {
+    text: v.name.split('.')[0],
+    link: '/' + tree.name + '/' + v.name
+  }
+})
+
 module.exports = {
-  title: 'Hello VitePress3333',
+  title: '如是我闻',
   description: 'Just playing around.',
   base: '/vitepress/',
   markdown: {
     lineNumbers: true,
-    toc: { includeLevel: [1, 2] },
+    // toc: { includeLevel: [1, 2] },
   },
   themeConfig: {
-
-    siteTitle: "Kitty",
+    siteTitle: "如是我闻",
     logo: "https://picx.zhimg.com/52c21ec34_l.jpg?source=32738c0c",
     nav: [
       { text: "Guide", link: "/guide/" },
       { text: "GuideTest", link: "/guide/test" },
-      { text: "gitee", link: "https://gitee.com/geeksdidi" },
+      { text: "gitee", link: "https://gitee.com/flyingliu" },
     ],
     socialLinks: [
-      { icon: "github", link: "https://gitee.com/geeksdidi" },
+      { icon: "github", link: "https://gitee.com/flyingliu" },
     ],
     sidebar: [
       {
-        text: "组件库源码实现",
-        items: [
-          {
-            text: "组件库环境搭建",
-            link: "/articles/组件库环境搭建",
-          },
-          { text: "gulp的使用", link: "/articles/gulp的使用" },
-        ],
-      },
-      {
-        text: "vue教程",
-        items: [
-          {
-            text: "pina和vuex",
-            link: "/articles/pina和vuex",
-          },
-        ],
-      },
+        text: "我的文章",
+        items: sidebarItems,
+      }
+      // {
+      //   text: "vue教程",
+      //   items: [
+      //     {
+      //       text: "pina和vuex",
+      //       link: "/articles/pina和vuex",
+      //     },
+      //   ],
+      // },
     ],
   },
 

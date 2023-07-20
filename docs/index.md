@@ -6,7 +6,7 @@ hero:
   text: 随便写点啥.
   tagline: 帅气又迷人的小月
   image:
-    src: /logo.png
+    src: https://qiniu.easywe.net/laf/d079ff78bca93dedb459ab742c6bea27.jpeg-small
     alt: Kitty
   actions:
     - theme: brand
@@ -14,7 +14,7 @@ hero:
       link: /articles/组件库环境搭建
     - theme: alt
       text: View on Gitee
-      link: https://gitee.com/geeksdidi
+      link: https://gitee.com/flyingliu
 
 features:
   - icon: ⚡️
