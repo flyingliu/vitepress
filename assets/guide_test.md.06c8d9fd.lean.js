@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as l,Q as o}from"./chunks/framework.ceec2a80.js";const u=JSON.parse('{"title":"test","description":"","frontmatter":{},"headers":[],"relativePath":"guide/test.md","filePath":"guide/test.md"}'),s={name:"guide/test.md"},i=o("",12),r=[i];function a(n,p,d,c,_,g){return e(),l("div",null,r)}const m=t(s,[["render",a]]);export{u as __pageData,m as default};
