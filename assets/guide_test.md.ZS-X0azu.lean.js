@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as l,U as o}from"./chunks/framework.4cPFVlmY.js";const u=JSON.parse('{"title":"test","description":"","frontmatter":{},"headers":[],"relativePath":"guide/test.md","filePath":"guide/test.md"}'),s={name:"guide/test.md"},i=o("",12),r=[i];function a(n,p,d,c,_,g){return l(),e("div",null,r)}const m=t(s,[["render",a]]);export{u as __pageData,m as default};
