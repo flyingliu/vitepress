@@ -1,0 +1,1 @@
+import{_ as p,c as n,o as g,a2 as h}from"./chunks/framework.BL2YRfMO.js";const x=JSON.parse('{"title":"千字文","description":"","frontmatter":{},"headers":[],"relativePath":"articles/千字文.md","filePath":"articles/千字文.md"}'),i={name:"articles/千字文.md"},u=h("",258),s=[u];function y(j,o,c,z,l,t){return g(),n("div",null,s)}const r=p(i,[["render",y]]);export{x as __pageData,r as default};
